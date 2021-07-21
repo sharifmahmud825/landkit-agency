@@ -9,8 +9,102 @@
     <script src="https://kit.fontawesome.com/0de8feadec.js" crossorigin="anonymous"></script>
 <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Cutom stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<!-- header section -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="images/brand.svg" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                      <li class="nav-item mx-3 fw-bold">
+                        <a class="nav-link active text-dark" aria-current="page" href="#">Landing</a>
+                      </li>
+                      <li class="nav-item mx-3 fw-bold">
+                        <a class="nav-link text-dark " href="#">Pages</a>
+                      </li>
+                      <li class="nav-item mx-3 fw-bold">
+                        <a class="nav-link text-dark" href="#">Account</a>
+                      </li>
+                      <li class="nav-item mx-3 fw-bold">
+                        <a class="nav-link text-dark" href="#">Documentation</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <button class="btn btn-primary col-12 px-4" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+<!-- nav section end  -->
+
+<!-- hero section start  -->
+
+        <section class="container">
+            <div class="row d-flex align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1 class="fw-normal fs-1">Welcome to <span class="text-primary">Landkit</span>. <br>
+                            Develop anything
+                        </h1>
+                        <p class="text-muted fs-4">
+                            Build a beautiful, modern website with flexible Bootstrap components built from scratch
+                        </p>
+                        <button class="btn btn-primary px-3 rounded-3 btn-landkit my-3">
+                            View All Pages<i class="fas fa-arrow-right ms-3 "></i>
+                        </button>
+                        <button class="btn btn-light px-3 py-2 rounded-3 btn-landkit ms-2 my-3">
+                            Documentation
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/illustration-2.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+<!-- hero section end  -->
+    </header>
+
+<!-- main section start -->
+
+    <main>
+        <section class="container">
+            <div class="row g-4 ">
+                <div class="col-lg-4 col-md-2 col-12 p-4">
+                    <i class="fas fa-toggle-on fs-2 text-primary "></i> <br>
+                    <i class="fas fa-toggle-off fs-2 text-muted mb-3"></i>
+                    <p class="fs-3">Built for developers</p>
+                    <p class="text-muted">Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.</p>
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 p-4">
+                    <i class="fas fa-shapes fs-1 text-primary mb-3"></i>
+                    <p class="fs-3">Designed to be modern</p>
+                    <p class="text-muted">Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.</p>
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 p-4">
+                    <i class="fas fa-code fs-1 text-primary mb-3"></i>
+                    <p class="fs-3">Documentation for everything</p>
+                    <p class="text-muted">We've written extensive documentation for components and tools, so you never have to reverse engineer anything.</p>
+                </div>
+            </div>
+        </section> 
+        <hr> 
+          
+    </main>
+<!-- main section end -->
+
+<!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
